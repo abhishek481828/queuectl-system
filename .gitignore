@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# SQLite data & temporary test DBs
+data/
+*.db
+*.db-shm
+*.db-wal
+tests/*.db*
+
+# Logs & Environment
+*.log
+.env
+.DS_Store

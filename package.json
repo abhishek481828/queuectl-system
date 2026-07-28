@@ -1,0 +1,28 @@
+{
+  "name": "queuectl-system",
+  "version": "1.0.0",
+  "description": "Lightweight, persistent CLI-driven queue control system",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "queuectl": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js",
+    "worker": "node src/cli/index.js worker start",
+    "test": "node --test tests/queue.test.js"
+  },
+  "keywords": [
+    "queue",
+    "cli",
+    "worker",
+    "job-processor",
+    "queuectl"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.1",
+    "commander": "^15.0.0"
+  }
+}
