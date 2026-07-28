@@ -1,3 +1,5 @@
+<div align="center">
+
 # ⚡ QueueCTL
 
 > **Production-Grade, CLI-Driven Background Job Queue System**
@@ -6,6 +8,8 @@
 ![SQLite](https://img.shields.io/badge/SQLite-WAL-blue)
 ![Tests](https://img.shields.io/badge/Tests-7%2F7-success)
 ![License](https://img.shields.io/badge/License-ISC-orange)
+
+</div>
 
 QueueCTL is a resilient, lightweight, CLI-based background job queue system engineered for high-concurrency workloads, cross-process worker management, exponential backoff retries, Dead Letter Queue (DLQ) isolation, and automatic crash recovery using SQLite Write-Ahead Logging (WAL).
 
