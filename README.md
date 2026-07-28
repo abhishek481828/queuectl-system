@@ -1,14 +1,11 @@
 # ⚡ QueueCTL
 
-> **Production-Grade, CLI-Driven Background Job Queue System**
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![SQLite](https://img.shields.io/badge/SQLite-WAL-blue)
+![Tests](https://img.shields.io/badge/Tests-7%2F7-success)
+![License](https://img.shields.io/badge/License-ISC-orange)
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-18%2B-green" alt="Node.js" />
-  <img src="https://img.shields.io/badge/SQLite-WAL-blue" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Tests-7%2F7-success" alt="Tests" />
-  <img src="https://img.shields.io/badge/License-ISC-orange" alt="License" />
-</p>
-
+> Production-Grade, CLI-Driven Background Job Queue System
 
 QueueCTL is a resilient, lightweight, CLI-based background job queue system engineered for high-concurrency workloads, cross-process worker management, exponential backoff retries, Dead Letter Queue (DLQ) isolation, and automatic crash recovery using SQLite Write-Ahead Logging (WAL).
 
